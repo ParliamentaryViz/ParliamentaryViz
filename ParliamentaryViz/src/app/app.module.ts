@@ -3,7 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatCardModule } from '@angular/material/card';
+
+//Material Design imports
+import { MatCardModule  } from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +20,12 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule,
+    MatListModule,
+    MatButtonModule,
+    MatSlideToggleModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
