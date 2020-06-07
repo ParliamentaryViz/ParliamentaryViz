@@ -6,23 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <div class="wrapper">
-  <body>
-  <mat-card id="heading-title" style="text-align:center;">
+  <div id="header">
+  <mat-card id="heading-title">
     <mat-card-title>{{ title }} </mat-card-title>
-    <mat-card-subtitle>
+    <mat-card-subtitle id="text">
       <h6>Dashboard visualising the data from <a href="https://petition.parliament.uk/">UK Government
         Petitions</a>.</h6>
     </mat-card-subtitle>
   </mat-card>
+  </div>
 
-  <mat-grid-list cols="6">
+  <body id="body">
+  <mat-grid-list cols="6" rowHeight="450">
     <mat-grid-tile colspan="2">
-      <mat-card>
+      <mat-card id="total-votes">
         <mat-card-title>
           <h5>Total Signatures</h5>
         </mat-card-title>
         <mat-card-content>
-            <mat-card-subtitle>
+            <mat-card-subtitle id="text">
               Signatures broken down by Country, Constituency, UK Region
             </mat-card-subtitle>
             <mat-list>
@@ -47,7 +49,7 @@
     </mat-grid-tile>
     <!-- Map to go here... -->
     <mat-grid-tile colspan="2" >
-      <mat-card>
+      <mat-card id="vote-breakdown">
         <p>
           Breakdown of individual votes:
         </p>
@@ -63,9 +65,9 @@
 
 <!-- Controls -->
     <mat-grid-tile colspan="2">
-      <mat-card>
+      <mat-card id="controls">
         <mat-card-title>Controls</mat-card-title>
-        <mat-card-subtitle>
+        <mat-card-subtitle id="text">
           Please use the following sliders and buttons to modify the output shown by the Map.
         </mat-card-subtitle>
         <div class="example-button-row">
@@ -82,12 +84,11 @@
           </mat-list>
         </div>
         <mat-slide-toggle>
-          Show UK only.
+          <span id="text"> Show UK only.</span>
         </mat-slide-toggle>
       </mat-card>
     </mat-grid-tile>
   </mat-grid-list>
-
   </body>
-</div>
+  </div>
 </html>
