@@ -1,5 +1,46 @@
-mat-card{
-  width: 100%;
+$text-color: white;
+
+mat-card {
+  width: fit-content;
   height: 100%;
   box-sizing: border-box;
 }
+
+#heading-title {
+  text-align: center;
+  left: 34%;
+  width:33%;
+  background-color: grey ;
+  color: $text-color;
+}
+
+#header {
+  position: relative;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+}
+
+#total-votes {
+  padding-right: 35%;
+  background-color: lightseagreen;
+  color: $text-color;
+}
+
+#vote-breakdown {
+  padding-right: 30%;
+  background-color: lightcoral;
+  color: $text-color;
+
+}
+
+#controls {
+  padding-right: 12%;
+  background-color: lightseagreen;
+  color: $text-color;
+}
+
+#text{
+  color: $text-color;
+}
+

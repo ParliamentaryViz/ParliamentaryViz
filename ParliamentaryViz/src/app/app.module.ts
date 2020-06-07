@@ -3,15 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-//Material Design imports
-import { MatCardModule  } from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatGridListModule} from '@angular/material/grid-list';
-
 
 @NgModule({
   declarations: [
