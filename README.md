@@ -1,5 +1,9 @@
 # ParliamentaryViz
-A web application that breaks down, and displays the data behind the UK government petitions. 
+A web application that breaks down, and displays the data behind the UK government petitions.
+
+## Tested on:
+1920 x 1080 & 2560 x 1440 resolution screens, this has not been tested on mobile devices yet.
+
 ### Prerequisites
  This has only been tested on Angular 9.1.9, please feel free to test it on earlier versions of Angular.
  
